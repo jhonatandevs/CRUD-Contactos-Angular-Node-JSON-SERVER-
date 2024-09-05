@@ -1,0 +1,40 @@
+<!-- component -->
+<div class="container mx-auto mt-8">
+	<h1 class="mb-8 text-center font-extrabold text-4xl">
+   LISTADO DE CONTACTOS
+  </h1>
+<button class="bg-black rounded-md text-white p-2 m-3" (click)="crearContactoRoute()">Agregar Cotacto</button>
+	<table class="text-left w-full">
+		<thead class="bg-black flex text-white w-full">
+			<tr class="flex w-full mb-4">
+				<th class="p-4 w-1/4">Nombre</th>
+				<th class="p-4 w-1/4">Apellidos</th>
+				<th class="p-4 w-1/4">Correo</th>
+				<th class="p-4 w-1/4">Celular</th>
+				<th class="p-4 w-1/4">Opciones</th>
+			</tr>
+		</thead>
+    <!-- Remove the nasty inline CSS fixed height on production and replace it with a CSS class — this is just for demonstration purposes! -->
+		<tbody class="bg-grey-light flex flex-col items-center justify-between overflow-y-scroll w-full" style="height: 50vh;">
+      <tr *ngFor="let contacto of contactos" class="flex w-full mb-4">
+        <td class="p-4 w-1/4 text-xs">{{ contacto.nombre }}</td>
+        <td class="p-4 w-1/4 text-xs">{{ contacto.apellidos }}</td>
+        <td class="p-4 w-1/4 text-xs">{{ contacto.correo }}</td>
+        <td class="p-4 w-1/4 text-xs">{{ contacto.celular }}</td>
+        <td class="p-4 w-1/4 text-xs">
+          <div class="flex space-x-2">
+            <!-- Icono de lupa para ver detalles -->
+            <fa-icon [icon]="['fas', 'eye']" class="cursor-pointer" (click)="verContacto(contacto.id)"></fa-icon>
+
+            <!-- Icono de lápiz para editar -->
+            <fa-icon [icon]="['fas', 'edit']" class="cursor-pointer" (click)="editarContacto(contacto)"></fa-icon>
+
+            <!-- Icono de X para eliminar -->
+            <fa-icon [icon]="['fas', 'trash']" class="cursor-pointer" (click)="eliminarContacto(contacto)"></fa-icon>
+          </div>
+        </td>
+      </tr>
+
+		</tbody>
+	</table>
+</div>

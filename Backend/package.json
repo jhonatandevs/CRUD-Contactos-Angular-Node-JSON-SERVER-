@@ -1,0 +1,21 @@
+{
+  "name": "backend-contactos",
+  "version": "1.0.0",
+  "description": "backend con node js usando dbjson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "dbjson",
+    "services",
+    "web-services"
+  ],
+  "author": "jhonatandevs",
+  "license": "ISC",
+  "dependencies": {
+    "backend-contactos": "file:",
+    "dbjson": "^1.0.0"
+  }
+}

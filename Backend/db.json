@@ -1,0 +1,146 @@
+{
+  "contactos": [
+    {
+      "nombre": "Ana",
+      "apellidos": "Martínez",
+      "correo": "ana.martinez@example.com",
+      "telefonos": [
+        "555-2345"
+      ],
+      "celular": "555-7654",
+      "direccion": "Calle de las Flores 789",
+      "hobbies": [
+        "Pintar",
+        "Jardinería"
+      ],
+      "lenguajes": [
+        "Español",
+        "Inglés"
+      ],
+      "id": "4"
+    },
+    {
+      "nombre": "David",
+      "apellidos": "Gómez",
+      "correo": "david.gomez@example.com",
+      "telefonos": [],
+      "celular": "555-3210",
+      "direccion": "Avenida Central 5678",
+      "musica": [
+        "Rock",
+        "Pop"
+      ],
+      "instrumento": "Guitarra",
+      "id": "6"
+    },
+    {
+      "nombre": "Sofía",
+      "apellidos": "Jiménez",
+      "correo": "sofia.jimenez@example.com",
+      "telefonos": [
+        "555-7890"
+      ],
+      "celular": "555-1098",
+      "direccion": "Calle del Sol 9876",
+      "deportes": [
+        "Fútbol",
+        "Natación"
+      ],
+      "equipoFavorito": "Real Madrid",
+      "id": "7"
+    },
+    {
+      "nombre": "Diego",
+      "apellidos": "López",
+      "correo": "diego.lopez@example.com",
+      "telefonos": [
+        "555-9012"
+      ],
+      "celular": "555-8901",
+      "direccion": "Avenida de la Paz 3456",
+      "viajes": [
+        "Europa",
+        "Asia"
+      ],
+      "idiomas": [
+        "Inglés",
+        "Francés"
+      ],
+      "id": "8"
+    },
+    {
+      "nombre": "Elena",
+      "apellidos": "García",
+      "correo": "elena.garcia@example.com",
+      "telefonos": [
+        "555-2345"
+      ],
+      "celular": "555-6543",
+      "direccion": "Calle de la Luna 7890",
+      "comidaFavorita": "Pizza",
+      "bebidaFavorita": "Café",
+      "id": "9"
+    },
+    {
+      "nombre": "Daniel",
+      "apellidos": "Sánchez",
+      "correo": "daniel.sanchez@example.com",
+      "telefonos": [
+        "555-4567"
+      ],
+      "celular": "555-3456",
+      "direccion": "Avenida de los Ríos 1234",
+      "peliculas": [
+        "Ciencia ficción",
+        "Comedia"
+      ],
+      "actorFavorito": "Tom Hanks",
+      "id": "10"
+    },
+    {
+      "id": "1",
+      "nombre": "Ana",
+      "apellidos": "Martínez",
+      "celular": "555-7654",
+      "correo": "ana.martinez@example.com",
+      "direccion": "Calle de las Flores 789",
+      "telefonos": []
+    },
+    {
+      "id": "1",
+      "nombre": "Jon",
+      "apellidos": "Doe",
+      "celular": "4546545454",
+      "correo": "dfdf@g.com",
+      "direccion": "1600 Fake Street",
+      "telefonos": []
+    },
+    {
+      "id": "10",
+      "nombre": "Jon",
+      "apellidos": "Doe",
+      "celular": "4546545454",
+      "correo": "dfdf@g.com",
+      "direccion": "1600 Fake Street",
+      "telefonos": []
+    },
+    {
+      "id": "1",
+      "nombre": "",
+      "apellidos": "",
+      "celular": "",
+      "correo": "",
+      "direccion": "",
+      "telefonos": []
+    },
+    {
+      "id": "12",
+      "nombre": "Gottfried",
+      "apellidos": "Leibniz",
+      "celular": "4546545454",
+      "correo": "dfdf@g.com",
+      "direccion": "Erfundene Straße 33",
+      "telefonos": []
+    }
+  ]
+}
